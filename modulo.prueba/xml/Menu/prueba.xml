@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/pruebaform</path>
+    <page_callback>CRM_Prueba_Form_PruebaForm</page_callback>
+    <title>PruebaForm</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/pruebapage</path>
+    <page_callback>CRM_Prueba_Page_PruebaPage</page_callback>
+    <title>PruebaPage</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/pruebaborrar</path>
+    <page_callback>CRM_Prueba_Form_PruebaBorrar</page_callback>
+    <title>PruebaBorrar</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/pruebamodificada</path>
+    <page_callback>CRM_Prueba_Form_PruebaModificada</page_callback>
+    <title>PruebaModificada</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/contactoprueba</path>
+    <page_callback>CRM_Prueba_Form_ContactoPrueba</page_callback>
+    <title>ContactoPrueba</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>
